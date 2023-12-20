@@ -12,7 +12,8 @@ const Home = () => {
     "'m a Software Engineer",
     "love coding",
     "Passionate about web development",
-    // Add more messages as needed
+    "love Design",
+    "love coding",
   ];
 
   return (

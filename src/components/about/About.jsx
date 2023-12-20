@@ -27,7 +27,7 @@ const About = () => {
                         </p>
                         <ul className="about__list">
                             <li>JavaScript (ES6+)</li>
-                            <li>TypeScript</li>
+                            {/* <li>TypeScript</li> */}
                             <li>React</li>
                             <li>Node.js</li>
                             <li>Postgres SQL</li>

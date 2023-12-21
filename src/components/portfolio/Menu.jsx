@@ -1,4 +1,4 @@
-import Work1 from "../../assets/native-jobs.png";
+import Work1 from "../../assets/react-blog.png";
 import Work2 from "../../assets/cryptoverse.png";
 import Work3 from "../../assets/travel.png";
 import Work4 from "../../assets/blog-1.svg";
@@ -7,8 +7,8 @@ const Menu = [
 	{
 		id: 1,
 		image: Work1,
-		title: "React Native Jobs App",
-		category: ["Frontend", "React"],
+		title: "React Blog App",
+		category: ["MERN", "React"],
 		repositoryUrl: "https://github.com/GregSithole/react-native-jobs"
 	},
 	{

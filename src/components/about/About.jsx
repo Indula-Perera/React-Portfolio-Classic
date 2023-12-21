@@ -20,19 +20,16 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
-                            is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
-                            Here are a few technologies I’ve been working with recently:
+                        Hello, I am Indula Perera, a highly motivated software engineering graduate holding a Bachelor of Science degree. I possess proficiency in various programming languages, including Java, JavaScript, HTML, PHP, Spring Boot, MySQL, MongoDB, OOP, and Android App Development, along with expertise in React JS. My career aspiration is to establish a successful career as a software engineer, utilizing my knowledge and skills to craft innovative software solutions tailored to meet the needs of businesses and end-users. With a solid foundation in education and practical experience, I am well-prepared to pursue my professional objectives and excel in the software engineering industry.
                         </p>
-                        <ul className="about__list">
+                        {/* <ul className="about__list">
                             <li>JavaScript (ES6+)</li>
-                            {/* <li>TypeScript</li> */}
+                             <li>TypeScript</li> 
                             <li>React</li>
                             <li>Node.js</li>
                             <li>Postgres SQL</li>
                             <li>NestJS</li>
-                        </ul>
+                        </ul> */}
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
                     </div>
 

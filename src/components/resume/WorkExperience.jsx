@@ -44,16 +44,16 @@ const WorkExperience = [
             "As a graduate of the Ordinary level, I have completed a crucial stage of I education. I have gained a foundational understanding of various subjects and developed essential skills such as reading, writing, and arithmetic. I'm education has prepared to pursue further studies or enter the workforce with basic knowledge and skills."
         ],
     },
-    {
-        id: 6,
-        title: "Student Ambassador",
-        company: "Varsity College",
-        yearsActive: "December 2014 - February 2015",
-        information: [
-            "Monitored registration for all prospective student",
-            "Assisted parents and prospective student with necessary registration details",
-        ],
-    },
+    // {
+    //     id: 6,
+    //     title: "Student Ambassador",
+    //     company: "Varsity College",
+    //     yearsActive: "December 2014 - February 2015",
+    //     information: [
+    //         "Monitored registration for all prospective student",
+    //         "Assisted parents and prospective student with necessary registration details",
+    //     ],
+    // },
 ];
 
 export default WorkExperience;

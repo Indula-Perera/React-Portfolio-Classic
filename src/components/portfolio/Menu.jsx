@@ -9,7 +9,7 @@ const Menu = [
 		image: Work1,
 		title: "React Blog App",
 		category: ["MERN", "React"],
-		repositoryUrl: "https://github.com/GregSithole/react-native-jobs"
+		repositoryUrl: "https://github.com/Indula-Perera/React-Blog-App.git"
 	},
 	{
 		id: 2,

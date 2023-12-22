@@ -78,6 +78,18 @@
   transition: 0.3s;
   opacity: 0;
 }
+.portfolio__title1 {
+  color: #fcfcfc;
+  font-size: var(--small-font-size);
+  margin: 0 0 0.98rem;
+  padding: 0 1.25rem;
+  position: absolute;
+  top: 1.75rem;
+  margin-top: 6rem;
+  transform: translateY(30px);
+  transition: 0.3s;
+  opacity: 0;
+}
 
 .portfolio__button {
   color: #fff;
@@ -121,6 +133,7 @@
 }
 
 .portfolio__card:hover .portfolio__title,
+.portfolio__card:hover .portfolio__title1,
 .portfolio__card:hover .portfolio__category {
   opacity: 1;
   transform: translateY(0);

@@ -28,20 +28,20 @@ const Portfolio = () => {
 				<span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Frontend"); setActiveFilter(1) }}>
 					Frontend
 				</span>
-				<span className={activeFilter === 2 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Backend"); setActiveFilter(2) }}>
-					Backend
-				</span>
-				<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Angular"); setActiveFilter(3) }}>
-					Angular
-				</span>
-				<span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("React"); setActiveFilter(4) }}>
+				<span className={activeFilter === 2 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("React"); setActiveFilter(2) }}>
 					React
 				</span>
+				<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("PHP"); setActiveFilter(3) }}>
+					PHP
+				</span>
+				{/* <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Backend"); setActiveFilter(4) }}>
+					Backend
+				</span> */}
 			</div>
 
 			<div className="portfolio__container grid">
 				{items.map((elem) => {
-					const { id, image, title, category, url, repositoryUrl } = elem;
+					const { id, image, title, discription, category, url, repositoryUrl,  } = elem;
 
 					return (
 						<motion.div
@@ -59,6 +59,7 @@ const Portfolio = () => {
 
 							<span className="portfolio__category">{category.join(', ')}</span>
 							<h3 className="portfolio__title">{title}</h3>
+							<h3 className="portfolio__title1">{discription}</h3>
 							<a href={url} target="_blank" rel="noreferrer" className="portfolio__button">
 								<RiLink className="portfolio__button-icon" />
 							</a>

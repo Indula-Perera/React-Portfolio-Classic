@@ -4,6 +4,8 @@ import Work3 from "../../assets/reactAdmin.png";
 import Work4 from "../../assets/OpenAI.png";
 import Work5 from "../../assets/ZAraW.png";
 import Work6 from "../../assets/TravalWeb.png";
+import Work7 from "../../assets/POS.png";
+import Work8 from "../../assets/jss.png";
 
 const Menu = [
 	{
@@ -58,6 +60,24 @@ const Menu = [
 		//discription: " Fulstrack Mearn Bolg App",
 		url: "#",
 		repositoryUrl: "https://github.com/Indula-Perera/Travel-Website--Road-Trip-Srilanka.git"
+	},
+	{
+		id: 7,
+		image: Work7,
+		title: "E Commerce Shop POS System",
+		category: ["PHP"],
+		//discription: " Fulstrack Mearn Bolg App",
+		url: "#",
+		repositoryUrl: "https://github.com/Indula-Perera/Point-of-Sale-Project.git"
+	},
+	{
+		id: 8,
+		image: Work8,
+		title: "Image Search Web App",
+		category: ["JavaScript"],
+		//discription: " Fulstrack Mearn Bolg App",
+		url: "#",
+		repositoryUrl: "https://github.com/Indula-Perera/JS-Image-Search.git"
 	}
 ];
 

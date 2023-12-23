@@ -1,0 +1,21 @@
+/* Shapes.css */
+.shapes-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  z-index: 0; /* Set a lower z-index to place it behind the home page content */
+  transition: transform 0.3s ease-out;
+}
+
+.shapes-container.hovered {
+  transform: scale(1.2) translate(0, 0);
+}
+
+.shape {
+  transition: transform 0.3s ease-out;
+}

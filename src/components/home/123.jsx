@@ -1,40 +1,24 @@
 // Shapes.jsx
-import React, { useEffect, useState } from 'react';
-import './Shapes.css'; // Import the CSS file
+import React, { useState, useEffect } from 'react';
 
 const Shapes = () => {
-  const [hovered, setHovered] = useState(false);
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const shapesContainer = document.querySelector('.shapes-container');
-
     const handleMouseMove = (event) => {
-      const { clientX, clientY } = event;
-      const { top, left, width, height } = shapesContainer.getBoundingClientRect();
-
-      const x = (clientX - left) / width - 0.4;
-      const y = (clientY - top) / height - 0.4;
-
-      const scale = 0.9; // Adjust the scale factor based on your preference
-      const offsetX = x * 20; // Adjust the offset values based on your preference
-      const offsetY = y * 20;
-
-      if (hovered) {
-        shapesContainer.style.transform = `scale(${scale}) translate(${offsetX}px, ${offsetY}px)`;
-      } else {
-        shapesContainer.style.transform = 'scale(1) translate(0, 0)';
-      }
+      setMousePosition({ x: event.clientX, y: event.clientY });
     };
 
-    shapesContainer.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mousemove', handleMouseMove);
 
     return () => {
-      shapesContainer.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mousemove', handleMouseMove);
     };
-  }, [hovered]);
+  }, []);
 
   return (
-    <div className={`shapes-container${hovered ? ' hovered' : ''}`} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+    <div className='shapes' style={{ transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)` }}>
+      {/* Add all the SVGs here */}
       <svg
         width="27"
         height="29"
@@ -218,7 +202,8 @@ const Shapes = () => {
                     fill-rule="evenodd"
                 />
             </svg>
-      {/* ... */}
+
+      {/* Add other shapes similarly */}
     </div>
   );
 };

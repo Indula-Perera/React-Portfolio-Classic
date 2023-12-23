@@ -32,8 +32,9 @@ const Home = () => {
         <ScrollDown />
       </div>
 
-      <Shapes />
+     <Shapes isVisible={true}/>
     </section>
+    
   );
 };
 

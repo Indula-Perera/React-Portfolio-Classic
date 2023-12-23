@@ -9,11 +9,14 @@
   border-radius: var(--border-radius);
   background-color: var(--container-color);
   transition: all 0.3s ease-in-out;
+  
 }
 
 .services__card:hover {
   transform: translateY(-10px);
 }
+
+
 
 .services__card:nth-child(1) {
   background-color: rgb(108, 108, 229);

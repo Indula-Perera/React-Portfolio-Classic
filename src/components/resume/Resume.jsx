@@ -1,16 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Resume.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Button from "./Button";
+import AOS from 'aos';  // Import AOS library
+import 'aos/dist/aos.css';  // Import AOS styles
 
 import WorkExperience from "./WorkExperience";
 
 const Resume = () => {
     const [tabIndex, setTabIndex] = useState(0);
 
+    useEffect(() => {
+        // Initialize AOS on component mount
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+        });
+
+        // Optional: Reset AOS when the component unmounts
+        return () => {
+            AOS.refresh();
+        };
+    }, []);
+
     return (
-        <section className="resume container section" id="resume">
-            <h2 className="section__title">Education</h2>
+        <section className="resume container section" id="resume" data-aos="fade-up">
+            <h2 className="section__title" data-aos="fade-down">
+                Education
+            </h2>
 
             <div className="resume__container">
                 <Tabs

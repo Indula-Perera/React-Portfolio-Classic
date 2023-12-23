@@ -100,11 +100,15 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1.875rem;
   margin-top: 4.35rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .about__box {
   display: flex;
   column-gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .about__icon {

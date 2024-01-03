@@ -33,7 +33,7 @@ function App() {
                 {/* <Testimonials />
                 <Blog /> */}
                 <Contact theme={theme} />
-            </main>
+            </main> 
         </div>
     );
 }

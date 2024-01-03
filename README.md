@@ -1,6 +1,6 @@
 # React Portfolio Classic
 
-Welcome to my React Portfolio Classic! This project showcases my portfolio website built with React.js, featuring a unique navbar, auto-typing text, animations for each section, and an email functionality using Email.js.
+Welcome to my React Portfolio Classic! 🚀 This project showcases my portfolio website built with React.js, featuring a unique navbar, auto-typing text, animations for each section, and an email functionality using Email.js.
 
 ## Table of Contents
 - [Demo](#demo)
@@ -17,13 +17,13 @@ Welcome to my React Portfolio Classic! This project showcases my portfolio websi
 ## Demo
 Visit the live demo [here](#your-live-demo-link).
 
-## Features
+## 🌟 Features
 - Unique navbar design
 - Auto-typing text for an engaging introduction
 - Animated sections to enhance user experience
 - Email functionality using Email.js for easy communication
 
-## Getting Started
+## 🚀 Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine.
 
 ### Prerequisites
@@ -52,7 +52,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    - `REPLACE_WITH_YOUR_TEMPLATE_ID`
    - `REPLACE_WITH_YOUR_USER_ID`
 
-## Usage
+## 🌐 Usage
 1. Start the development server:
    ```bash
    npm start

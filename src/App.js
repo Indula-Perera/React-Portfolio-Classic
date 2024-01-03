@@ -30,8 +30,8 @@ function App() {
                 <Services />
                 <Resume />
                 <Portfolio />
-                <Testimonials />
-                <Blog />
+                {/* <Testimonials />
+                <Blog /> */}
                 <Contact theme={theme} />
             </main>
         </div>

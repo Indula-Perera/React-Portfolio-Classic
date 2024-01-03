@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 const TypingText = ({ messages }) => {
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState('');
+  const [isFlashing, setIsFlashing] = useState(false);
   const permanentText = "I ";
 
   useEffect(() => {
@@ -15,6 +16,12 @@ const TypingText = ({ messages }) => {
       index++;
 
       if (index > messages[messageIndex].length) {
+        setIsFlashing(true);
+
+        setTimeout(() => {
+          setIsFlashing(false);
+        }, 500); // Flashing duration
+
         setTimeout(() => {
           index = 0;
           messageIndex = (messageIndex + 1) % messages.length;
@@ -26,7 +33,11 @@ const TypingText = ({ messages }) => {
     return () => clearInterval(typingInterval);
   }, [messages, currentMessageIndex]);
 
-  return <span className="home__education">{displayedText}</span>;
+  return (
+    <span className={`home__education ${isFlashing ? 'flashing-text' : ''}`}>
+      {displayedText}
+    </span>
+  );
 };
 
 export default TypingText;

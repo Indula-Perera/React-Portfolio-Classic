@@ -32,7 +32,7 @@ const WorkExperience = [
         company: "Mahanama College - Colombo 03",
         yearsActive: "2018",
         information: [
-            "As a graduate of the Advance level in Commerce stream, I have gained a deep understanding of business principles and practices. I possess practical skills in financial accounting, economics, and business management, and are well-equipped to pursue further studies in commerce or enter the workforce. I'm education has prepared for a wide range of careers in the business world.",
+            "Having completed the Advanced level in the Commerce stream, I've developed a profound grasp of business principles and practices. My practical skills in financial accounting, economics, and business management make me well-prepared to either continue my studies in commerce or transition into the workforce. My education has equipped me for diverse career opportunities in the business world.",
         ],
     },
     {
@@ -41,7 +41,7 @@ const WorkExperience = [
         company: "Mahanama College - Colombo 03",
         yearsActive: "2015",
         information: [
-            "As a graduate of the Ordinary level, I have completed a crucial stage of I education. I have gained a foundational understanding of various subjects and developed essential skills such as reading, writing, and arithmetic. I'm education has prepared to pursue further studies or enter the workforce with basic knowledge and skills."
+            "Having completed the Ordinary level, I've concluded a pivotal stage in my education. I've acquired a foundational understanding of various subjects and honed essential skills such as reading, writing, and arithmetic. My education has prepared me to either pursue further studies or enter the workforce with a basic yet solid knowledge and skill set."
         ],
     },
     // {

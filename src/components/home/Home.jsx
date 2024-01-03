@@ -1,11 +1,11 @@
 // Home.js
 import React from 'react';
 import './Home.css';
-import Me from '../../assets/avatar-1.svg';
+import Me from '../../assets/avatar-4.png';
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
-import TypingText from './TyoingText';
+import TypingText from './TypingText';
 
 const Home = () => {
   const messages = [

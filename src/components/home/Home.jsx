@@ -10,10 +10,10 @@ import TypingText from './TypingText';
 const Home = () => {
   const messages = [
     "'m a Software Engineer",
-    "love coding",
-    "Passionate about web development",
-    "love Design",
-    "love Photography",
+    "love Web Development",
+    "am passionate about clean code",
+    "am a team player",
+    "am a quick learner in tec",
   ];
 
   return (

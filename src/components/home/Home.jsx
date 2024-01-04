@@ -13,7 +13,7 @@ const Home = () => {
     "love Web Development",
     "am passionate about clean code",
     "am a team player",
-    "am a quick learner in tec",
+    "am a quick learner in tech",
   ];
 
   return (

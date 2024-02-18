@@ -17,7 +17,7 @@ const HeaderSocials = () => {
                 <FaDev />
             </a> */}
 
-            <a href='www.linkedin.com/in/indula-perera' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a href='https://www.linkedin.com/in/indula-perera' className='home__social-link' target='_blank' rel='noreferrer'>
                 <FaLinkedinIn />
             </a>
 

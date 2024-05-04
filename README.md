@@ -10,12 +10,12 @@ Welcome to my React Portfolio Classic! 🚀 This project showcases my portfolio 
   - [Installation](#installation)
   - [Configuration](#configuration)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Demo
-Visit the live demo [here](#your-live-demo-link).
+Visit the live demo [here](https://indula.netlify.app/).
 
 ## 🌟 Features
 - Unique navbar design
@@ -59,6 +59,12 @@ Follow these instructions to get a copy of the project up and running on your lo
    ```
 
 2. Open your browser and navigate to `http://localhost:3000` to view your portfolio.
+
+## 🎨 Screenshots
+
+!Light Mood![Screenshot 2024-05-04 124750](https://github.com/Indula-Perera/React-Portfolio-Classic/assets/105506303/3d61b56a-9f20-45eb-98df-58e9263cacbf)
+!Dark Mood![Screenshot 2024-05-04 124803](https://github.com/Indula-Perera/React-Portfolio-Classic/assets/105506303/979bd547-985f-4651-8242-f849b260cd1c)
+ 
 
 ## Contributing
 Feel free to contribute to the project! Check out the [Contributing Guidelines](CONTRIBUTING.md) for more details.

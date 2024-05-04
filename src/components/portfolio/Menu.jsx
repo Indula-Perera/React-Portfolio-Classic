@@ -78,6 +78,15 @@ const Menu = [
 		//discription: " Fulstrack Mearn Bolg App",
 		url: "#",
 		repositoryUrl: "https://github.com/Indula-Perera/JS-Image-Search.git"
+	},
+	{
+		id: 9,
+		image: Work8,
+		title: "React Login",
+		category: ["React"],
+		//discription: " Fulstrack Mearn Bolg App",
+		url: "#",
+		repositoryUrl: "https://github.com/Indula-Perera/JS-Image-Search.git"
 	}
 ];
 
